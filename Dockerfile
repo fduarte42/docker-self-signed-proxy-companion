@@ -1,4 +1,4 @@
-FROM nginxproxy/docker-gen:0.9.0 AS docker-gen
+FROM nginxproxy/docker-gen:latest AS docker-gen
 FROM alpine:latest
 
 RUN apk add --no-cache --virtual .bin-deps \
